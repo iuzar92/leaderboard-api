@@ -86,6 +86,8 @@ pipenv update
 
 Navigate into the project root directory '/leaderboard-api' run the following scripts to migrate and initialize the application:
 
+Migrate
+
 - ##### Linux/Mac
 
 ```bash
@@ -96,6 +98,20 @@ Navigate into the project root directory '/leaderboard-api' run the following sc
 
 ```bash
 ./scripts/win/django_migrate_dev.ps1
+```
+
+Start
+
+- ##### Linux/Mac
+
+```bash
+./scripts/uni/django_run_dev.sh
+```
+
+- ##### Windows
+
+```bash
+./scripts/win/django_run_dev.ps1
 ```
 
 <hr>
