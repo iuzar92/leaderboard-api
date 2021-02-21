@@ -1,0 +1,27 @@
+{% extends 'pages/base.html' %} {% block header %}
+<h1>Leaderboard</h1>
+{% endblock %} {% block content %}
+<div id="user-data"></div>
+
+<table>
+  <tr>
+    <td>Rank</td>
+    <td>Name</td>
+    <td>Score</td>
+  </tr>
+  {% for user in user_data %}
+  <tr>
+    <td>{{ user.ranking }}</td>
+    <td>{{ user.user_name }}</td>
+    <td>{{ user.user_score }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<script>
+  const sorted_user_data = document.getElementById("user-data").textContent;
+  const data_array = JSON.parse("user_data" | escape.json);
+  console.log(data_array);
+</script>
+
+{% endblock %}

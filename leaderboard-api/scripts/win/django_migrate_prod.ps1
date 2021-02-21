@@ -1,0 +1,1 @@
+DJANGO_SETTINGS_MODULE=django_project.settings.prod_settings python manage.py migrate
