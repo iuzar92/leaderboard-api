@@ -10,12 +10,12 @@ Case Study for a REST API for accepting, processing, storing and returning infor
 
 <br>
 
-> ##### **dev-iter.1 notes**
+##### **dev-iter.1 notes**
 
-> ##### The project is currently under development. The full functionality of the API hasn't been integrated yet.
+> ##### !! The project is currently under development. The full functionality of the API has not been integrated yet.
 
 > ##### Please read each sub-section carefully before running the relevant commands.
->
+
 > ##### The application currently runs on a local virtual environment (pipenv) running Python 3 and a PostgreSQL database.
 
 <br/>
@@ -40,7 +40,7 @@ This will automatically install the suitable version of pip, wheel and setuptool
 
 Pip can also be installed through most package managers such as homebrew or apt-get.
 
-> ##### Example: \<brew install pip>
+> ##### Example: brew install pip
 
 [python]: https://www.python.org/downloads/release/python-376/
 [pip]: https://bootstrap.pypa.io/get-pip.py
