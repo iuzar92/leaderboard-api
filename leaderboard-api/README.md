@@ -2,33 +2,41 @@
 
 ##### _Author: Ibrahim Uzar_
 
+<hr style="border-bottom: 1px solid #ffcc00;">
 <br/>
 
 ### Objective
 
 Case Study for a REST API for accepting, processing, storing and returning information about user scores and rankings on a leaderboard.
 
-<br>
+<br/>
+<hr>
 
-> ##### **dev-iter.1 notes**
+##### **dev-iter.1 notes**
 
-> ##### The project is currently under development. The full functionality of the API hasn't been integrated yet.
+> ##### !! The project is currently under development. The full functionality of the API has not been integrated yet.
 
 > ##### Please read each sub-section carefully before running the relevant commands.
->
+
 > ##### The application currently runs on a local virtual environment (pipenv) running Python 3 and a PostgreSQL database.
 
+<hr>
 <br/>
 
 ## **Installation**
 
-### 1. Python & Pip
+<hr style="border-bottom: 1px solid rgb(255, 204, 0);">
 
-> ##### Python version 3.7.6 and Pip version 21.0.1
+### **1. Python & Pip**
+
+<hr style="width: 15%;margin-left:0;border-bottom: 2px dashed rgba(255, 204, 0, 0.2);">
+<br/>
+
+> Python version 3.7.6 and Pip version 21.0.1
 >
-> ##### Click [here][python] to install Python.
+> Click [here][python] to install Python.
 >
-> ##### Click [here][pip] for the get-pip.py file.
+> Click [here][pip] for the get-pip.py file.
 
 Paste the contents into a file named get-pip.py and run the following command to install pip:
 
@@ -40,14 +48,19 @@ This will automatically install the suitable version of pip, wheel and setuptool
 
 Pip can also be installed through most package managers such as homebrew or apt-get.
 
-> ##### Example: \<brew install pip>
+> Example: brew install pip
 
 [python]: https://www.python.org/downloads/release/python-376/
 [pip]: https://bootstrap.pypa.io/get-pip.py
 
+<br/>
+
 ### 2. Pipenv
 
-> ##### Pipenv version 2020.11.15.
+<hr style="width: 15%;margin-left:0;border-bottom: 2px dashed rgba(255, 204, 0, 0.2);">
+<br/>
+
+> Pipenv version 2020.11.15.
 
 Update Pip and install Pipenv for setting up a virtual environment for the app.
 
@@ -62,11 +75,14 @@ The Pipfile inside the project folder contains a list of Pipenv dependencies. To
 pipenv update
 ```
 
-> ##### Edit Pipfile to see list of packages and their exact versions.
+> Edit Pipfile to see list of packages and their exact versions.
 
+<hr>
 <br/>
 
 ## **Run App Locally**
+
+<hr style="border-bottom: 1px solid rgb(255, 204, 0);">
 
 Navigate into the project root directory '/leaderboard-api' run the following scripts to migrate and initialize the application:
 
@@ -82,15 +98,18 @@ Navigate into the project root directory '/leaderboard-api' run the following sc
 ./scripts/win/django_migrate_dev.ps1
 ```
 
+<hr>
 <br/>
 
 #### Next stages include:
 
-#### - Integrating a local, proxy and remote postgresql database on Google Cloud
+<hr style="width: 15%;margin-left:0;border-bottom: 2px dashed rgba(255, 204, 0, 0.2);">
 
-#### - Implementing Django models (database, tables, test data)
+- Integrating a local, proxy and remote postgresql database on Google Cloud
 
-#### - Documentation
+- Implementing Django models (database, tables, test data)
+
+- Documentation
 
 <!--
 
