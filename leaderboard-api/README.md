@@ -125,6 +125,8 @@ Start
 
 - Implementing Django models (database, tables, test data)
 
+- REST on Docker on Google Cloud.
+
 - Documentation
 
 <!--
