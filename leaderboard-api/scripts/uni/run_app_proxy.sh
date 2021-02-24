@@ -1,0 +1,1 @@
+gunicorn django_project.wsgi:application --env DJANGO_SETTINGS_MODULE=django_project.settings.proxy_settings

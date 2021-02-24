@@ -12,9 +12,15 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from .apps_settings import INSTALLED_APPS
+from .sec._key import SECRET_KEY
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+# Secret key must be placed inside the '_key.py' file in 'sec/' folder
+SECRET_KEY = SECRET_KEY
 
 
 # Quick-start development settings - unsuitable for production
