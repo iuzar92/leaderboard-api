@@ -9,7 +9,7 @@ print("Using Production.")
 ALLOWED_HOSTS = ['*']
 DEBUG = False
 
-# Production Proxy Database
+""" Production PostgreSQL Database """
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',

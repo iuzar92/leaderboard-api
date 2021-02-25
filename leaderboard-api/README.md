@@ -1,4 +1,4 @@
-# **Highscore Challenge**
+# **Leaderboard API**
 
 ##### _Author: Ibrahim Uzar_
 

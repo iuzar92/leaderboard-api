@@ -6,7 +6,7 @@ from .apps_settings import *
 SETTINGS_MODULE = "prox"
 print("Using Proxy.")
 
-# Development Proxy Database
+""" Proxy PostgreSQL Database """
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',

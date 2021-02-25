@@ -1,0 +1,1 @@
+python manage.py runserver --settings django_project.settings.proxy_settings
