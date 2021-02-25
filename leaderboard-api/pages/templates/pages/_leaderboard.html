@@ -17,11 +17,10 @@
   </tr>
   {% endfor %}
 </table>
-
+{% comment %}
 <script>
   const sorted_user_data = document.getElementById("user-data").textContent;
   const data_array = JSON.parse("user_data" | escape.json);
   console.log(data_array);
 </script>
-
-{% endblock %}
+{% endcomment %} {% endblock %}

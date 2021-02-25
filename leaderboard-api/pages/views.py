@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.conf import settings
+from .models import User
 
 # TODO Create views
 """
