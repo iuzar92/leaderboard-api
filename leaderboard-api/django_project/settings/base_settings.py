@@ -19,7 +19,7 @@ from .sec._key import SECRET_KEY
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-# Secret key must be placed inside the '_key.py' file in 'sec/' folder
+# Secret key must be placed inside a file named '_key.py' in 'sec/' folder
 SECRET_KEY = SECRET_KEY
 
 
